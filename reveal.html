@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event listenr examples</title>
+    <style>
+        *{
+            border: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        html{
+            background: linear-gradient(#333,#fff);
+            height: 100vh;
+            width:100vw ;
+        }
+        .container{
+            display: flex;
+           margin-top: 45vh;
+           align-items: center;
+           justify-content: center;
+        }
+
+        .boxes{
+            border: #fff 3px solid;
+            border-radius: 7px;
+        }
+        .hidden-content{
+            height: 25%;
+            width: 40%;
+            margin-left: 5px;
+            display: block;
+        }
+        .reveal-btn{
+            height: 10%;
+            width: 10%;
+        }
+.reveal-btn:hover{
+    background-color: #cdb3b3;
+    border: #cdb3b3 3px solid;
+}
+ 
+.hidden-content .reveal-btn{
+    display: block;
+}
+    </style>
+</head>
+<body>
+    <script src="reveal.js"></script>   
+   <div class="container">
+    <button class="reveal-btn boxes">Reveal More</button>
+    <div class="hidden-content boxes">The Name of This Anime is Fire-force(En En no Shouboutai),It is  2019 Shonen Anime With Protagonist Shinra Kusakabe And Other members of Team 8 As they Battle Agaijnst Paranormal Creatures Called Infernals.It has 2 seasons comprising of 24 epsidoes each and the third season was recently confirmed to be in production.It Was crearted by the maker of then hit series soul eater,It is Also A Manga Of the Same Name(En En no Shoubuati) In The Year 2016 and as of date it has finished serializing with 34 volumes and 347 chapters.</div>
+   </div> 
+
+</body>
+</html>
